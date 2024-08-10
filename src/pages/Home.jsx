@@ -12,7 +12,7 @@ function Home() {
     let isMounted = true;
     AppwriteConfig.getPosts([]).then((response) => {
       if (isMounted) {
-        setPosts(response.documents);
+        setPosts(response.documents || []);
       }
     });
     return () => {
