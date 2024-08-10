@@ -14,13 +14,12 @@ function Contact() {
             Love to hear from you
           </p>
           <p className="mx-auto max-w-4xl text-center text-base text-gray-600 md:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore veritatis voluptates
-            neque itaque repudiandae sint, explicabo assumenda quam ratione placeat?
+          We'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out. Fill out the form below, and we'll get back to you as soon as possible.
           </p>
         </div>
         <div className="mx-auto max-w-7xl py-12 md:py-24">
           <div className="grid items-center justify-items-center gap-x-4 gap-y-10 lg:grid-cols-2">
-            {/* contact from */}
+
             <div className="flex items-center justify-center">
               <div className="px-2 md:px-12">
                 <p className="text-2xl font-bold text-gray-900 md:text-4xl">Get in touch</p>
