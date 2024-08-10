@@ -24,13 +24,14 @@ function App() {
         }
       } catch {
         dispatch(logout());
+        navigate("/");
       } finally {
         setLoading(false);
       }
     };
 
     checkUser();
-  }, [dispatch, navigate, user]);
+  }, [dispatch, navigate]);
 
   return loading ? (
     <h1>Loading...</h1>
