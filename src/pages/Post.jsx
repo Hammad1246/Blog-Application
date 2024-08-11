@@ -51,7 +51,7 @@ function Post() {
       <div className="flex justify-between items-center w-full max-w-5xl px-8 py-4 bg-white shadow-md rounded-lg mt-10">
         <div className="flex items-center">
           <img
-            className="h-16 w-16 rounded-full border-2 border-gray-300"
+            className="h-16 w-16 rounded-full border-2 border-gray-300 object-fill"
             src={AppwriteConfig.getFilePreview(post.featuredImage)}
             alt="Profile"
           />
