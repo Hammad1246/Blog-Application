@@ -8,7 +8,7 @@ function PostCard({ $id, featuredImage, title }) {
   }, [featuredImage]);
 
   return (
-    <div className="w-[300px] rounded-md border flex flex-col mx-2 my-8 overflow-hidden">
+    <div className="w-[300px] rounded-md border flex flex-col mx-2 my-8 overflow-hidden shadow-lg shadow-zinc-500 ">
       <img
         src={previewSrc}
         alt={title}
