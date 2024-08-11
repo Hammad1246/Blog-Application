@@ -10,7 +10,7 @@ function Home() {
 
   useEffect(() => {
     let isMounted = true;
-    AppwriteConfig.getPosts([]).then((response) => {
+    AppwriteConfig.getPosts().then((response) => {
       if (isMounted) {
         setPosts(response.documents || []);
       }
