@@ -12,7 +12,7 @@ function PostCard({ $id, featuredImage, title }) {
       <img
         src={previewSrc}
         alt={title}
-        className="h-[200px] bg-black w-full  object-fill"
+        className="h-[200px] bg-black w-full object-fill"
         onError={(e) => (e.target.style.display = 'none')}
       />
       <div className="p-4">
