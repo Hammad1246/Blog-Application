@@ -81,7 +81,7 @@ export class appwriteConfig{
         }
     }
 
-    async getPosts(queries = [Query.equal("public", "private")]){
+    async getPosts(queries = [Query.equal("status", "public")]){
         try {
             return await this.databases.listDocuments(
                 conf.appwriteDatabaseId,
